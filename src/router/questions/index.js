@@ -1,5 +1,5 @@
 var {Router} = require('express');
-var QuestionsController = require('../../controller/Questions')
+var QuestionsController = require('../../controller/questions')
 
 var QuestionRouter = function () {
         let controller  = new QuestionsController();
